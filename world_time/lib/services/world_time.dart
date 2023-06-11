@@ -21,8 +21,7 @@ class WorldTime {
 
       DateTime now = DateTime.parse(datetime);
       now = now.add(Duration(hours: int.parse(offset)));
-      //print(now);
-
+      print('OK');
       time = now.toString();
     }
     catch(e){
